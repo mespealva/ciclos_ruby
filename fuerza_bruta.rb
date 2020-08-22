@@ -6,7 +6,10 @@ pass= ARGV[0]
         for j in 0..(a.length) do
             if a[j]==b[i]
             cont+=1+j
+            else
+                cont+=1+i
             end
+
         end
     end
 
