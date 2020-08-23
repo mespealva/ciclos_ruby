@@ -1,6 +1,6 @@
 num = ARGV[0].to_i
 
-    a= (0..num).to_a
+    a= (0..(num*2)).to_a
     sum= a[0].to_i
 
     a.each do |i| 

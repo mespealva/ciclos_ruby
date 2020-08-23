@@ -4,7 +4,7 @@ n = gets.chomp
 n = n.to_i
 
 def gen(n)
-    a = ('A'..'Z').to_a
+    a = ('a'..'z').to_a
     i=0
     a.each do |e|    
         if i < n
